@@ -1,3 +1,5 @@
+# [进入我的博客](https://litarussell.github.io/)
+
 # BaiduIFE
 在百度IFE中学习的情况
 
