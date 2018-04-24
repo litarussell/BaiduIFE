@@ -2,7 +2,8 @@
 在百度IFE中学习的情况
 
 ## 目录
-* 1.2 [用webpack4 / parcel快速搭建开发san helloworld](https://litarussell.github.io/BaiduIFE/mvvm/1.2-webpack_san/dist/index.html) [课程地址](http://ife.baidu.com/course/detail/id/2)
+* 1.2 [用webpack4 / parcel快速搭建开发san helloworld](https://github.com/litarussell/BaiduIFE/tree/master/mvvm/1.2-webpack_san)		[效果预览](https://litarussell.github.io/BaiduIFE/mvvm/1.2-webpack_san/dist/index.html)		[课程地址](http://ife.baidu.com/course/detail/id/2)
+
 * 2.1 数据操作 [课程地址](http://ife.baidu.com/course/detail/id/4)
 * 2.2 条件和循环 [课程地址](http://ife.baidu.com/course/detail/id/5)
 * 2.3 样式控制 [课程地址](http://ife.baidu.com/course/detail/id/8)
