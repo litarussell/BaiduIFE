@@ -1,36 +1,20 @@
 import tpl from './tpl.html';
 // import './tpl.css';
 
-import {Component, DataTypes} from "san";
+import {Component} from "san";
 
 class dataOperation extends Component {
 	constructor(options) {
 	    super(options);
 	}
-	filters(){
-		return {
-    isNum: function (value, msg) {
-        if (typeof +value === 'number') {
-        	return msg || "数据必须是数字类型";
-        }else{
-        	return value;
-        }
-    },
-    isStr: function (value, msg) {
-        if (typeof value === 'string') {
-        	return msg || "数据必须是字符串类型";
-        }else{
-        	return value;
-        }
-    }
-}
-	}
 	initData() {
-        return {data:{
-        	name: null,
-        	age: null,
-        	info: null
-        }};
+        return {
+        	data:{
+	        	name: 'lita',
+	        	age: 21,
+	        	info: '测试'
+        	}
+    	};
     }
     remove(){
     	this.data.set('data.name', null);
@@ -39,19 +23,23 @@ class dataOperation extends Component {
     }
 }
 dataOperation.template = tpl;
+
+// dataOperation.dataTypes = {
+//     'data.name': DataTypes.string
+// }
 dataOperation.filters = {
     isNum: function (value, msg) {
-        if (typeof +value === 'number') {
+        if (Number.isNaN(+value)) {
         	return msg || "数据必须是数字类型";
-        }else{
+        } else {
         	return value;
         }
     },
     isStr: function (value, msg) {
-        if (typeof value === 'string') {
-        	return msg || "数据必须是字符串类型";
-        }else{
+        if (/[a-zA-Z]|[\u4E00-\u9FA5]/g.test(value)) {
         	return value;
+        } else {
+        	return msg || "数据必须是字符串类型";
         }
     }
 }
