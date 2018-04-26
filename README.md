@@ -6,8 +6,8 @@
 ## 目录
 * 1.2 [用webpack4 / parcel快速搭建开发san helloworld](https://github.com/litarussell/BaiduIFE/tree/master/mvvm/1.2-webpack_san) | [效果预览](https://litarussell.github.io/BaiduIFE/mvvm/1.2-webpack_san/dist/index.html) | [课程地址](http://ife.baidu.com/course/detail/id/2)
 
-* 2.1 数据操作 [课程地址](http://ife.baidu.com/course/detail/id/4)
-* 2.2 条件和循环 [课程地址](http://ife.baidu.com/course/detail/id/5)
+* 2.1 [数据操作](https://github.com/litarussell/BaiduIFE/tree/master/mvvm/2.1-data_operation) | [效果预览](https://litarussell.github.io/BaiduIFE/mvvm/2.1-data_operation/dist/index.html) | [课程地址](http://ife.baidu.com/course/detail/id/4)
+* 2.2 [条件和循环](https://github.com/litarussell/BaiduIFE/tree/master/mvvm/2.2-if_for) | [效果预览](https://litarussell.github.io/BaiduIFE/mvvm/2.2-if_for/dist/index.html) | [课程地址](http://ife.baidu.com/course/detail/id/5)
 * 2.3 样式控制 [课程地址](http://ife.baidu.com/course/detail/id/8)
 * 2.4 事件处理 [课程地址](http://ife.baidu.com/course/detail/id/9)
 * 2.5 表单实现Input、Checkbox组件 [课程地址](http://ife.baidu.com/course/detail/id/10)

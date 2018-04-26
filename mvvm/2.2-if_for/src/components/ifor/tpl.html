@@ -1,0 +1,36 @@
+<!-- <link rel="stylesheet" href="./tpl.css"> -->
+<div class="ifor">
+	<div>
+		<input type="text" placeholder="姓名">
+		<select id="">
+			<option value="合格">合格</option>
+			<option value="不合格">不合格</option>
+			<option value="待审核">待审核</option>
+		</select>
+		<button on-click="add">添加</button>
+	</div>
+	<table border="1" cellspacing="0" cellpadding="0">
+		<thead>
+			<tr>
+				<th>姓名</th>
+				<th>审核状态</th>
+				<th>操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<template s-for="item, index in data">
+				<tr>
+					<td>{{item[0]}}</td>
+					<td>{{item[1]}}</td>
+					<td s-if="{{ item[1] == '待审核' }}">
+						<button on-click="up(index)">待审核</button>
+					</td>
+					<td s-else>
+						<button on-click="remove(index)">删除</button>
+					</td>
+				</tr>
+			</template>
+		</tbody>
+		
+	</table>
+</div>

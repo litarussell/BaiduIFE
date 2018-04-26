@@ -1,0 +1,23 @@
+<div id="dataOperation">
+	<form>
+		<input type="text" placeholder="姓名 (string)" value="{= data.name =}">
+		<input type="text" placeholder="年龄 (number)" value="{= data.age  =}">
+		<input type="text" placeholder="简介 (string)" value="{= data.info =}">
+		
+	</form>
+	<div>
+		<span>信息</span>
+		<button on-click="remove">移除信息</button>
+	</div>
+	<ul>
+		<li>
+			<span>姓名：</span><span>{{data.name | isStr }}</span>
+		</li>
+		<li>
+			<span>年龄：</span><span>{{data.age | isNum }}</span>
+		</li>
+		<li>
+			<span>简介：</span><span>{{data.info | isStr }}</span>
+		</li>
+	</ul>
+</div>
