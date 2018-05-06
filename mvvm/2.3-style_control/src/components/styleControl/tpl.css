@@ -1,0 +1,10 @@
+.default {
+    background: red;
+}
+.change {
+	background: green;
+}
+.base {
+    width: 100px;
+    height: 100px;
+}
