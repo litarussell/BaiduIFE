@@ -1,0 +1,13 @@
+.ifor table{
+	border: 1px solid #ccc;
+}
+.ifor div{
+	padding: 10px 0;
+}
+.ifor table th{
+	padding: 5px 8px;
+}
+.ifor table td{
+	padding: 3px 8px;
+	text-align: center;
+}

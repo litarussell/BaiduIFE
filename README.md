@@ -9,7 +9,7 @@
 * 2.1 [数据操作](https://github.com/litarussell/BaiduIFE/tree/master/mvvm/2.1-data_operation) | [效果预览](https://litarussell.github.io/BaiduIFE/mvvm/2.1-data_operation/dist/index.html) | [课程地址](http://ife.baidu.com/course/detail/id/4)
 * 2.2 [条件和循环](https://github.com/litarussell/BaiduIFE/tree/master/mvvm/2.2-if_for) | [效果预览](https://litarussell.github.io/BaiduIFE/mvvm/2.2-if_for/dist/index.html) | [课程地址](http://ife.baidu.com/course/detail/id/5)
 * 2.3 [样式控制](https://github.com/litarussell/BaiduIFE/tree/master/mvvm/2.3-style_control) | [效果预览](https://litarussell.github.io/BaiduIFE/mvvm/2.3-style_control/dist/index.html) | [课程地址](http://ife.baidu.com/course/detail/id/8)
-* 2.4 事件处理 [课程地址](http://ife.baidu.com/course/detail/id/9)
+* 2.4 [事件处理](https://github.com/litarussell/BaiduIFE/tree/master/mvvm/2.4-event_handing) | [效果预览](https://litarussell.github.io/BaiduIFE/mvvm/2.4-event_handing/dist/index.html) | [课程地址](http://ife.baidu.com/course/detail/id/9)
 * 2.5 表单实现Input、Checkbox组件 [课程地址](http://ife.baidu.com/course/detail/id/10)
 * 2.6 插槽相关 [课程地址](http://ife.baidu.com/course/detail/id/11)
 * 2.7.1 使用s-transition指令实现过渡动画 [课程地址](http://ife.baidu.com/course/detail/id/12)
